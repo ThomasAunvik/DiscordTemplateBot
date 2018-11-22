@@ -5,9 +5,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Hifumi_Bot;
-
-namespace DiscordGeneral.Modules
+namespace DiscordTemplateBot.Modules
 {
     public class HelpModule : ModuleBase<ICommandContext>
     {

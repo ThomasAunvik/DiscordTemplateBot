@@ -9,13 +9,15 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Hifumi_Bot
+using DiscordTemplateBot.Handler;
+
+namespace DiscordTemplateBot
 {
     public class Program
     {
         public const ulong botID = 0;
         public const char botPrefix = '!';
-        public readonly string inviteURL = "https://discordapp.com/api/oauth2/authorize?client_id=" + botID + "&permissions=0&scope=bot";
+        public static readonly string inviteURL = "https://discordapp.com/api/oauth2/authorize?client_id=" + botID + "&permissions=0&scope=bot";
         
         public static Color embedColor = new Color(114, 137, 218);
 

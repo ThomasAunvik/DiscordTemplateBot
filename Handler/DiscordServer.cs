@@ -5,9 +5,7 @@ using Discord.WebSocket;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-using Hifumi_Bot.Modules;
-
-namespace Hifumi_Bot
+namespace DiscordTemplateBot.Handler
 {
     public class DiscordServer
     {

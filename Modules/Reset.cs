@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hifumi_Bot.Modules
+using DiscordTemplateBot.Handler;
+
+namespace DiscordTemplateBot.Modules
 {
     public class Reset : ModuleBase<SocketCommandContext>
     {

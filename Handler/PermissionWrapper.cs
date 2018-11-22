@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using Discord;
-using Discord.Commands;
-using Discord.WebSocket;
 
-namespace Hifumi_Bot.Handler
+namespace DiscordTemplateBot.Handler
 {
     public static class PermissionWrapper
     {

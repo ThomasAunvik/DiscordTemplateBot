@@ -7,6 +7,7 @@
     <Authors>Thomas Aunvik</Authors>
     <Company />
     <Product>Hifumi Bot</Product>
+    <StartupObject>DiscordTemplateBot.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
